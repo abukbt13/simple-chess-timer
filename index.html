@@ -13,13 +13,62 @@
     <title>Lets Play chess</title>
 </head>
 <body>
+<style>
+    .time{
+        width:100vw; height:100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;align-items:center;
+    }
+    .player1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 18rem;
+        height: 13rem;
+        background: #e67e22;
+    }
+    .controls{
+        background: black;
+        color: white;
+        display: flex;
+        justify-content: space-around;
+    }
+    .player2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 18rem;
+        height: 13rem;
+        background: #e67e22;
+    }
+    #resume{
+        display: none;
+    }
+    .set-time{
+        width: 19rem;
+        padding-top: 10rem;
+        padding-bottom: 10rem;
+        background: grey;
+        position: absolute;
+        top: 8rem;
+        left:35.5rem;
+        align-items: center;
+        display:flex;
+        flex-direction: column;
+    }
 
+</style>
+<div style="display: none;" class="show-set-time">
+    <div class="set-time">
+        <input min="1" type="number" style="height:3rem;font-size: 22px; width: 80%;margin-top: 0.5rem;" id="time"><br>
+        <button id="enterTime" class="btn btn-success w-50 mx-2 mb-2">Set</button>
+    </div>
+</div>
 <div class="main">
-    <div style="display: none;" id="time">
-        <input type="number" id="time"><br>
-        <button id="enterTime" class="btn btn-success w-50">Set</button>
 
     </div>
+
 
     <div class="time">
         <div class="timer">
@@ -45,10 +94,7 @@
 
 
     </div>
-    <p>I am learning git today</p>
-    <p>hello do thiss</p><p>I am learning git today</p>
-    <p>hello do thiss</p><p>I am learning git today</p>
-    <p>hello do thiss</p>
+
 </div>
 <script src="app.js"></script>
 </body>
