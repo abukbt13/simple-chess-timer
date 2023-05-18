@@ -60,10 +60,10 @@
 
 </style>
 <div style="display: none;" class="show-set-time">
-    <div class="set-time">
-        <input min="1" type="number" style="height:3rem;font-size: 22px; width: 80%;margin-top: 0.5rem;" id="time"><br>
-        <button id="enterTime" class="btn btn-success w-50 mx-2 mb-2">Set</button>
-    </div>
+        <div class="set-time">x
+        <input min="1" type="number" style="height:3rem;font-size: 22px; width: 80%;margin-top: 0.5rem;" id="min"><br>
+            <button id="" onClick="begin_time()" className="btn btn-success w-50 mx-2 mb-2">Set</button>
+        </div>
 </div>
 <div class="main">
 
@@ -79,15 +79,15 @@
           </div>
             <div class="controls">
                 <span id="reset"><i class="fa fa-repeat" aria-hidden="true"></i></span>
-                <span id="play"><i class="fa fa-pause" aria-hidden="true"></i></span>
+                <span id="pause"><i class="fa fa-pause" aria-hidden="true"></i></span>
                 <span id="resume"><i class="fa fa-play" aria-hidden="true"></i></span>
                 <span id="set_time"><i class="fa fa-pencil" aria-hidden="true"></i></span>
             </div>
 
           <div class="player2">
-              <span>5</span>
+              <span id="getminutes">5</span>
               <span>:</span>
-              <span>00</span>
+              <span id="getseconds">00</span>
           </div>
 
         </div>
