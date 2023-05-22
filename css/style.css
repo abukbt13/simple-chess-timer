@@ -1,0 +1,12 @@
+// if (player2time < 10) {
+//     getsecondso.innerHTML='0' + player2time;
+// }
+// if (player2time > 9) {
+//     getsecondso.innerHTML= player2time;
+// }
+// if (player2time > 59) {
+//     getminutes2++;
+//     player2time = 0;
+//     getminutes2.innerHTML= getminutes2;
+//     getsecondso.innerHTML= '00'
+// }
